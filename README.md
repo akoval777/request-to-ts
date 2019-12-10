@@ -4,9 +4,7 @@
 
 1. Указываем в файле composer.json зависимость от пакета и адрес его репозитория:
 
-    // composer.json
-    ...
-
+    
     "require": {
     	"akoval777/request-to-ts": "dev-master",
     }
