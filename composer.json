@@ -1,0 +1,28 @@
+{
+    "name": "akoval777/request-to-ts",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "akoval777@gmail.com",
+            "homepage": "https://github.com/akoval777/request-to-ts",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Akoval777\\RequestToTs\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akoval777\\RequestToTs\\RequestToTsServiceProvider"
+            ]
+        }
+    }
+}
